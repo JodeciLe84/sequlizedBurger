@@ -1,1 +1,4 @@
-# sequlizedBurger
+# burger
+
+link up heroku
+

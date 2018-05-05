@@ -1,0 +1,50 @@
+{{!-- ********************************************************************************* --- INDEX --- *************************************************************************************
+--}} {{!- Jumbotron Area =============================================================================== --}}
+
+<div class="jumbotron">
+
+  <h1 class="display-3">Eat-da-Burger</h1>
+  <h2>Welcome to Delicious!</h2>
+  <br class="my-5"> 
+  {{!-- Form Input --}}
+  <form>
+    <div class="form-group row">
+      <div class="col-5">
+        <br>
+        <label for="burgerInput">What burger would you like to make?</label>
+        <input type="text" class="form-control" id="burgerInput" placeholder="Enter Burger Name..">
+      </div>
+    </div>
+  </form>
+
+  <button id="submitButton" type="submit" class="btn btn-primary btn-lg">Create!</button>
+
+</div>
+
+{{!-- Burger Display Area ============================================================ --}}
+
+<div id="burgerDisplay" class=" p-md-4 m-md-3 text-center bg-light">
+
+  <div class="row">
+
+    {{!-- Hot & Fresh Burgers Area --}}
+    <div class="col-sm-6">
+      <div class="card">
+        <h4 class="card-header">hot and fresh burgers!</h4>
+        <div id="hotBurgers" class="card-body">
+        </div>
+      </div>
+    </div>
+
+    {{!-- Devoured Area --}}
+    <div class="col-sm-6">
+      <div class="card">
+        <h4 class="card-header">devoured burgers!</h4>
+        <div id="devouredBurgers" class="card-body">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>

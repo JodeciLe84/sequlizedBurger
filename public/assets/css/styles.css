@@ -1,0 +1,29 @@
+.jumbotron {
+  background-image: url('../img/burger3.jpg');
+  color: whitesmoke;
+  /* Full height */
+  height: 100%;
+  margin-bottom: 1rem;
+  /* Center and scale the image nicely */
+  background-position-y: 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+  font-family: 'Great Vibes', cursive;
+  margin-left: 150px
+}
+
+h4 {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-weight: bold;
+}
+
+#burgerDisplay {
+  height:   310px;
+}
