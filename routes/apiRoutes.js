@@ -12,7 +12,7 @@ var db = require('../models')
 // =============================================================
 module.exports = function(app) {
 
-// Retreving data from api and adding to database
+// Retrieving data from api and adding to database
   app.post('/api/newBurger', function(req, res) {
     console.log(req.body)
     db.Burger.create({
